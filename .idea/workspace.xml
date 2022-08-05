@@ -5,21 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196234c9-bcdb-4a5d-914b-8ae324877b53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/dao/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/edit_course.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/new_course.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/dao/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add-user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/update-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/LearnSpringBootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/LearnSpringBootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/dao/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/dao/CourseRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/model/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poc/learnspringboot/courses/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit_course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/new_course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/new_course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/poc/learnspringboot/LearnSpringBootApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/poc/learnspringboot/LearnSpringBootApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/poc/learnspringboot/LearnSpringBootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poc/learnspringboot/LearnSpringBootApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/poc/learnspringboot/courses/controller/CourseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poc/learnspringboot/courses/controller/CourseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/poc/learnspringboot/courses/dao/CourseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poc/learnspringboot/courses/dao/CourseRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/poc/learnspringboot/courses/model/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/poc/learnspringboot/courses/model/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit_course.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/edit_course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/new_course.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/new_course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-poc-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-boot-poc-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="HTML File" />
       </list>
@@ -44,6 +61,22 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
@@ -65,6 +98,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -118,5 +152,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

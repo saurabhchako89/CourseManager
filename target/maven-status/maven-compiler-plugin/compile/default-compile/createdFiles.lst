@@ -1,5 +1,0 @@
-com/poc/learnspringboot/courses/model/Course.class
-com/poc/learnspringboot/LearnSpringBootApplication.class
-com/poc/learnspringboot/courses/dao/CourseRepository.class
-com/poc/learnspringboot/courses/controller/CourseController.class
-com/poc/learnspringboot/courses/service/CourseService.class
