@@ -7,8 +7,7 @@
 </head>
 <body>
 <div align="center">
-    <h1>Course List</h1>
-    <a href="new">Create New Course</a>
+    <h1>Course Manager</h1>
     <br/><br/>
     <table border="1" cellpadding="10">
         <thead>
@@ -25,39 +24,40 @@
             <td th:text="${course.author}">Author</td>
 
             <td>
-                <a th:href="@{'/edit/' + ${course.id}}">Edit</a>
-                &nbsp;&nbsp;&nbsp;
-                <a th:href="@{'/delete/' + ${course.id}}">Delete</a>
+                <a th:href="@{'/updateCourse/' + ${course.id}}">Edit</a>
+                <a th:href="@{'/deleteCourse/' + ${course.id}}">Delete</a>
             </td>
+        </tr>
+        <tr>
+            <a href="newCourse">Create New Course</a>
         </tr>
         </tbody>
     </table>
-</div>
 
-<div align="center" th:switch="${users}">
-    <h2 th:case="null">No users yet!</h2>
-    <div th:case="*">
-        <h2>Users</h2>
-        <table>
-            <thead>
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Edit</th>
-                <th>Delete</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr th:each="user : ${users}">
-                <td th:text="${user.name}"></td>
-                <td th:text="${user.email}"></td>
-                <td><a th:href="@{/edit/{id}(id=${user.id})}">Edit</a></td>
-                <td><a th:href="@{/delete/{id}(id=${user.id})}">Delete</a></td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-    <p><a href="/signup">Add a new user</a></p>
+    <table border="1" cellpadding="10">
+        <thead>
+        <tr>
+            <th>User ID</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="user : ${users}">
+            <td th:text="${user.id}">User ID</td>
+            <td th:text="${user.name}">Name</td>
+            <td th:text="${user.email}">Email</td>
+
+            <td>
+                <a th:href="@{'/updateUser/' + ${user.id}}">Edit</a>
+                <a th:href="@{'/deleteUser/' + ${user.id}}">Delete</a>
+            </td>
+        </tr>
+        <tr>
+            <a href="newUser">Create New User</a>
+        </tr>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>
